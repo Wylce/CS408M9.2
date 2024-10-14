@@ -22,3 +22,6 @@ A simple bulleted list below is sufficient. For example:
 - Icons: https://fontawesome.com/
 - Fonts: https://fonts.google.com/
 - etc.
+
+- Tip for centering a fixed position element: https://www.geeksforgeeks.org/how-to-center-an-element-using-positionfixed-in-css/
+- Advice for working with a keydown event: https://stackoverflow.com/questions/5203407/how-to-detect-if-multiple-keys-are-pressed-at-once-using-javascript

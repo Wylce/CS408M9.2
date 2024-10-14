@@ -23,3 +23,45 @@ h1 {
   color: transparent;
   text-shadow: 0 0 4px white;
 }
+
+p {
+  position: absolute;
+  margin: 0;
+  top: 35px;
+  right: 5px;
+  color: #aaa;
+}
+
+#endgame-menu {
+  background-color: rgba(250, 250, 250, .9);
+  border-radius: 15px;
+
+  padding: 20px 5px;
+  width: 300px;
+  height: 200px;
+
+  display: flex;
+  flex-direction: column;
+  visibility: hidden; /*Visibility is changed in the script when the game is over */
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  align-items: center;
+  align-self: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#replay-btn {
+  border-radius: 15px;
+  font-size: 1.5rem;
+  height: 4rem;
+}
+
+#replay-btn:hover{
+  background-color: rgb(189, 187, 187);
+  cursor: pointer;
+}
