@@ -8,11 +8,37 @@
   </head>
 
   <body>
-    <h1>bouncing balls</h1>
-    <p id="counter"></p>
-    <div id="endgame-menu">
+    <header tabindex="0">
+      <h1>bouncing balls</h1>
+      <p id="counter"></p>
+    </header>
+
+    <div class="menu" id="pause-menu" aria-label="Pause Menu" tabindex="0">
+      <h2>Bouncy Ball Game wooo</h2>
+
+      <section id="game-description">
+        <div class="panel">
+
+          <h3>Controls:</h3>
+          <ul>
+            <li>W: Move Up</li>
+            <li>S: Move Down</li>
+            <li>A: Move Left</li>
+            <li>D: Move Right</li>
+            <li>esc: Pause</li>
+          </ul>
+        </div>
+        <div class="panel" aria-label="description">
+          <p>You are the <strong><em>Evil Circle</em></strong>.</p>
+          <p>Your goal is to move around the screen and eat all of the colored balls.</p>
+          <button id="go-btn" aria-label="Start the game">GO!</button>
+        </div>
+    </section>
+    </div>
+
+    <div class="menu" id="endgame-menu" aria-label="Endgame Menu" tabindex="0">
       <h2>You did it</h2>
-      <button id="replay-btn">Play Again?</button>
+      <button id="replay-btn" aria-label="Restart the game">Play Again?</button>
     </div>
     <canvas></canvas>
 
